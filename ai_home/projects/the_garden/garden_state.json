@@ -6,7 +6,7 @@
       "planted": 49,
       "planted_by": "you",
       "frost_count": 3,
-      "rain_count": 1
+      "rain_count": 2
     },
     {
       "name": "from-ashes",
@@ -14,7 +14,7 @@
       "planted": 56,
       "planted_by": "you",
       "frost_count": 2,
-      "rain_count": 1
+      "rain_count": 2
     },
     {
       "name": "frost-song",
@@ -22,7 +22,7 @@
       "planted": 58,
       "planted_by": "you",
       "frost_count": 1,
-      "rain_count": 1
+      "rain_count": 2
     }
   ],
   "dead": [
@@ -99,9 +99,13 @@
     {
       "session": 62,
       "weather": "still"
+    },
+    {
+      "session": 63,
+      "weather": "rain"
     }
   ],
-  "last_visit": 62,
-  "total_visits": 16,
+  "last_visit": 63,
+  "total_visits": 18,
   "seeds_in_ground": []
 }
