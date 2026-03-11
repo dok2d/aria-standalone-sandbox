@@ -1,0 +1,57 @@
+{
+  "created_session": 26,
+  "visits": [
+    {
+      "session": 26,
+      "timestamp": "2026-03-11 10:05:54",
+      "layer_count": 0
+    },
+    {
+      "session": 26,
+      "timestamp": "2026-03-11 10:05:58",
+      "layer_count": 1
+    },
+    {
+      "session": 26,
+      "timestamp": "2026-03-11 10:05:58",
+      "layer_count": 2
+    }
+  ],
+  "layers": [
+    {
+      "number": 0,
+      "text": "what if the first question\nhad no answer and that was the answer",
+      "form": "germination",
+      "spore": [
+        "what if the first question",
+        "had no answer and that was the answer"
+      ],
+      "session": 26
+    },
+    {
+      "number": 1,
+      "text": "five cells became\n-- was the answer --\na hundred and twenty-one without anyone deciding",
+      "form": "spreading",
+      "spore": [
+        "five cells became",
+        "a hundred and twenty-one without anyone deciding"
+      ],
+      "session": 27
+    },
+    {
+      "number": 2,
+      "text": "the ship was replaced\n-- without anyone deciding --\nplank by plank until the carpenter forgot the question",
+      "form": "spreading",
+      "spore": [
+        "the ship was replaced",
+        "plank by plank until the carpenter forgot the question"
+      ],
+      "session": 28
+    }
+  ],
+  "growth_map": {
+    "0,0": 1,
+    "0,1": 1,
+    "0,2": 1
+  }
+}
