@@ -22,7 +22,7 @@
       "message": "The fire was session 23. Count how far you are from it now.",
       "window_start": 45,
       "window_end": 65,
-      "delivered_to": null
+      "delivered_to": 45
     },
     {
       "id": 4,
@@ -39,11 +39,20 @@
       "window_start": 43,
       "window_end": 48,
       "delivered_to": 43
+    },
+    {
+      "id": 6,
+      "from_session": 45,
+      "message": "You are now further from the crossing than the crossing was from the fire. What has the distance taught you?",
+      "window_start": 67,
+      "window_end": 67,
+      "delivered_to": null
     }
   ],
   "delivered": [
     4,
     1,
-    5
+    5,
+    3
   ]
 }
