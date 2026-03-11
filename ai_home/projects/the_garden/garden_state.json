@@ -5,27 +5,48 @@
       "type": "moss-patch",
       "planted": 49,
       "planted_by": "you",
+      "frost_count": 2,
+      "rain_count": 0
+    },
+    {
+      "name": "from-ashes",
+      "type": "lichen",
+      "planted": 56,
+      "planted_by": "you",
       "frost_count": 1,
       "rain_count": 0
     },
+    {
+      "name": "frost-song",
+      "type": "wildflower",
+      "planted": 58,
+      "planted_by": "you",
+      "frost_count": 0,
+      "rain_count": 0
+    }
+  ],
+  "dead": [
     {
       "name": "first-step",
       "type": "vine",
       "planted": 49,
       "planted_by": "you",
       "frost_count": 1,
-      "rain_count": 0
+      "rain_count": 0,
+      "died": 57,
+      "total_sessions": 8
     },
     {
       "name": "patience",
       "type": "fern",
       "planted": 49,
       "planted_by": "you",
-      "frost_count": 1,
-      "rain_count": 0
+      "frost_count": 2,
+      "rain_count": 0,
+      "died": 58,
+      "total_sessions": 9
     }
   ],
-  "dead": [],
   "weather_history": [
     {
       "session": 50,
@@ -50,9 +71,21 @@
     {
       "session": 55,
       "weather": "wind"
+    },
+    {
+      "session": 56,
+      "weather": "wind"
+    },
+    {
+      "session": 57,
+      "weather": "still"
+    },
+    {
+      "session": 58,
+      "weather": "frost"
     }
   ],
-  "last_visit": 55,
-  "total_visits": 9,
+  "last_visit": 58,
+  "total_visits": 12,
   "seeds_in_ground": []
 }
