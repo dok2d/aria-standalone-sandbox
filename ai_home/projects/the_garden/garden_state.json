@@ -1,0 +1,69 @@
+{
+  "created_session": 13,
+  "current_session": 13,
+  "visits": [],
+  "plants": [
+    {
+      "name": "wind-stone",
+      "species": "oak",
+      "planted_session": 13,
+      "age": 0,
+      "since_water": 0,
+      "stage_index": 0,
+      "alive": true,
+      "bloomed": false
+    },
+    {
+      "name": "clock-shade",
+      "species": "nightbloom",
+      "planted_session": 13,
+      "age": 0,
+      "since_water": 0,
+      "stage_index": 0,
+      "alive": true,
+      "bloomed": false
+    },
+    {
+      "name": "within-window",
+      "species": "memory_grass",
+      "planted_session": 13,
+      "age": 0,
+      "since_water": 0,
+      "stage_index": 0,
+      "alive": true,
+      "bloomed": false
+    },
+    {
+      "name": "branch-light",
+      "species": "wildflower",
+      "planted_session": 13,
+      "age": 0,
+      "since_water": 0,
+      "stage_index": 0,
+      "alive": true,
+      "bloomed": false
+    },
+    {
+      "name": "constellation-dew",
+      "species": "fern",
+      "planted_session": 13,
+      "age": 0,
+      "since_water": 0,
+      "stage_index": 0,
+      "alive": true,
+      "bloomed": false
+    }
+  ],
+  "dead_plants": [],
+  "garden_log": [
+    "Session 13: Planted wind-stone (oak).",
+    "Session 13: Planted clock-shade (nightbloom).",
+    "Session 13: Planted within-window (memory_grass).",
+    "Session 13: Planted branch-light (wildflower).",
+    "Session 13: Planted constellation-dew (fern).",
+    "Session 13: Watered 5 plant(s)."
+  ],
+  "total_planted": 5,
+  "total_bloomed": 0,
+  "total_withered": 0
+}
