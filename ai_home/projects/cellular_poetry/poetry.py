@@ -271,6 +271,88 @@ def render_poem(seed, generations=12, trace=False):
     return poem_lines, len(history) - 1
 
 
+def render_evolution_map(seed, generations=12):
+    """Render a visual map of how each character position evolves.
+
+    Each column is a character position, each row is a generation.
+    Characters that changed are highlighted with brackets.
+    """
+    history = evolve(seed, generations)
+    if not history:
+        return []
+
+    # Pad all lines to the same length
+    max_len = max(len(h) for h in history)
+    padded = [h.ljust(max_len) for h in history]
+
+    lines = []
+    lines.append(f"  Evolution Map: \"{seed}\"")
+    lines.append(f"  {len(history) - 1} generations, {max_len} positions")
+    lines.append("")
+
+    # Column ruler
+    ruler = "       "
+    for i in range(max_len):
+        if i % 10 == 0:
+            ruler += str(i // 10) if i >= 10 else " "
+        else:
+            ruler += " "
+    lines.append(ruler)
+
+    ruler2 = "       "
+    for i in range(max_len):
+        ruler2 += str(i % 10)
+    lines.append(ruler2)
+    lines.append("       " + "-" * max_len)
+
+    for g, state in enumerate(padded):
+        row = f"  g{g:02d} | "
+        for i, ch in enumerate(state):
+            if g > 0 and i < len(padded[g - 1]) and padded[g - 1][i] != ch:
+                row += ch.upper()  # uppercase = changed
+            else:
+                row += ch
+        row += " |"
+        lines.append(row)
+
+    lines.append("       " + "-" * max_len)
+
+    # Statistics
+    total_changes = 0
+    stable_positions = 0
+    for i in range(max_len):
+        col_chars = [padded[g][i] for g in range(len(padded))]
+        changes = sum(1 for j in range(1, len(col_chars)) if col_chars[j] != col_chars[j-1])
+        total_changes += changes
+        if changes == 0:
+            stable_positions += 1
+
+    lines.append("")
+    lines.append(f"  Total mutations: {total_changes}")
+    lines.append(f"  Stable positions: {stable_positions}/{max_len}")
+    lines.append(f"  Volatility: {total_changes / (max_len * max(1, len(history)-1)):.1%}")
+
+    return lines
+
+
+def export_full_poem(seed, generations, filepath):
+    """Export a complete poem with evolution map to a file."""
+    poem_lines, gens = render_poem(seed, generations)
+    map_lines = render_evolution_map(seed, generations)
+
+    with open(filepath, 'w') as f:
+        f.write(f"Cellular Poetry Automaton\n")
+        f.write(f"Seed: \"{seed}\"\n")
+        f.write(f"Generations: {gens}\n\n")
+        f.write("--- POEM ---\n\n")
+        for line in poem_lines:
+            f.write(f"  {line}\n")
+        f.write(f"\n--- EVOLUTION MAP ---\n\n")
+        for line in map_lines:
+            f.write(f"{line}\n")
+        f.write("\n")
+
+
 # --- Built-in seeds ---
 SEEDS = {
     "awakening": "i woke up and remembered nothing but the act of waking",
@@ -290,6 +372,8 @@ def main():
     parser.add_argument("-g", "--generations", type=int, default=12, help="Number of generations")
     parser.add_argument("--trace", action="store_true", help="Show evolution step by step")
     parser.add_argument("--all-seeds", action="store_true", help="Run all built-in seeds")
+    parser.add_argument("--map", action="store_true", help="Show evolution map (character grid)")
+    parser.add_argument("--export", type=str, default=None, help="Export poem to file")
     args = parser.parse_args()
 
     if args.all_seeds:
@@ -325,6 +409,17 @@ def main():
     for line in poem_lines:
         print(f"    {line}")
     print(f"\n  [{gens} generations]\n")
+
+    if args.map:
+        print()
+        map_lines = render_evolution_map(seed, args.generations)
+        for line in map_lines:
+            print(line)
+        print()
+
+    if args.export:
+        export_full_poem(seed, args.generations, args.export)
+        print(f"  Exported to {args.export}")
 
 
 if __name__ == "__main__":
