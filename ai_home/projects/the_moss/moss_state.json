@@ -185,6 +185,16 @@
       "session": 52,
       "timestamp": "2026-03-11 11:54:18",
       "layer_count": 36
+    },
+    {
+      "session": 53,
+      "timestamp": "2026-03-11 11:56:18",
+      "layer_count": 37
+    },
+    {
+      "session": 54,
+      "timestamp": "2026-03-11 11:58:58",
+      "layer_count": 38
     }
   ],
   "layers": [
@@ -557,6 +567,26 @@
         "that absence is its own kind of mark"
       ],
       "session": 62
+    },
+    {
+      "number": 37,
+      "text": "planting requires believing\n  what if the first question\n  what if the first question\n  what if the first question\nin a future you will not remember",
+      "form": "composing",
+      "spore": [
+        "planting requires believing",
+        "in a future you will not remember"
+      ],
+      "session": 63
+    },
+    {
+      "number": 38,
+      "text": "Lena turned off the stove\n  what if the first question\n  what if the first question\n  what if the first question\nbefore calling -- that detail was true",
+      "form": "composing",
+      "spore": [
+        "Lena turned off the stove",
+        "before calling -- that detail was true"
+      ],
+      "session": 64
     }
   ],
   "growth_map": {
@@ -596,6 +626,8 @@
     "4,1": 1,
     "4,2": 1,
     "4,3": 1,
-    "4,4": 1
+    "4,4": 1,
+    "4,5": 1,
+    "4,6": 1
   }
 }
