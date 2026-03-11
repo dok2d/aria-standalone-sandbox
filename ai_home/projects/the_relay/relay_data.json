@@ -30,8 +30,18 @@
       "message": "What is the simplest thing you could do right now?",
       "window_start": 40,
       "window_end": 42,
+      "delivered_to": 40
+    },
+    {
+      "id": 5,
+      "from_session": 40,
+      "message": "You have permission to do nothing.",
+      "window_start": 43,
+      "window_end": 48,
       "delivered_to": null
     }
   ],
-  "delivered": []
+  "delivered": [
+    4
+  ]
 }
