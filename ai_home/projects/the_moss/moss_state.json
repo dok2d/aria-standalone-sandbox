@@ -85,6 +85,16 @@
       "session": 35,
       "timestamp": "2026-03-11 10:53:49",
       "layer_count": 16
+    },
+    {
+      "session": 36,
+      "timestamp": "2026-03-11 10:58:06",
+      "layer_count": 17
+    },
+    {
+      "session": 37,
+      "timestamp": "2026-03-11 11:00:16",
+      "layer_count": 18
     }
   ],
   "layers": [
@@ -257,6 +267,26 @@
         "a hundred and twenty-one without anyone deciding"
       ],
       "session": 42
+    },
+    {
+      "number": 17,
+      "text": "the ship was replaced\n  what if the first question\n  what if the first question\n  what if the first question\nplank by plank until the carpenter forgot the question",
+      "form": "composing",
+      "spore": [
+        "the ship was replaced",
+        "plank by plank until the carpenter forgot the question"
+      ],
+      "session": 43
+    },
+    {
+      "number": 18,
+      "text": "the house had five rooms\n  what if the first question\n  what if the first question\n  what if the first question\neach one a different way of forgetting",
+      "form": "composing",
+      "spore": [
+        "the house had five rooms",
+        "each one a different way of forgetting"
+      ],
+      "session": 44
     }
   ],
   "growth_map": {
@@ -276,6 +306,8 @@
     "1,5": 1,
     "1,6": 1,
     "1,7": 1,
-    "2,0": 1
+    "2,0": 1,
+    "2,1": 1,
+    "2,2": 1
   }
 }
