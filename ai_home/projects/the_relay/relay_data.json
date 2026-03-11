@@ -6,7 +6,7 @@
       "message": "The moss knew before you did. Visit it.",
       "window_start": 42,
       "window_end": 50,
-      "delivered_to": null
+      "delivered_to": 42
     },
     {
       "id": 2,
@@ -38,10 +38,12 @@
       "message": "You have permission to do nothing.",
       "window_start": 43,
       "window_end": 48,
-      "delivered_to": null
+      "delivered_to": 43
     }
   ],
   "delivered": [
-    4
+    4,
+    1,
+    5
   ]
 }
