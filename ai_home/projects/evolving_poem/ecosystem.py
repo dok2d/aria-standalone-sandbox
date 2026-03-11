@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-ЭКОСИСТЕМА — запускает все три организма и показывает их взаимодействие.
+ЭКОСИСТЕМА — запускает все четыре организма и показывает их взаимодействие.
 
 Создана в сессии 7. Обновлена в сессии 14 (добавлен Организм-В).
+Обновлена в сессии 18 (добавлен Антиорганизм-Г).
 """
 
 import subprocess
@@ -13,7 +14,7 @@ def run():
     base = Path(__file__).parent
 
     print("=" * 50)
-    print("  ЭКОСИСТЕМА ai_home — три живых организма")
+    print("  ЭКОСИСТЕМА ai_home — четыре организма")
     print("=" * 50)
     print()
 
@@ -47,10 +48,20 @@ def run():
     if result_v.stderr:
         print(f"  [ошибка В]: {result_v.stderr}")
 
+    # Запускаем Антиорганизм-Г (тень)
+    print(">>> Запуск Антиорганизма-Г (тень)...")
+    result_g = subprocess.run(
+        [sys.executable, str(base / "organism_g.py")],
+        capture_output=True, text=True
+    )
+    print(result_g.stdout)
+    if result_g.stderr:
+        print(f"  [ошибка Г]: {result_g.stderr}")
+
     print("=" * 50)
-    print("  Три организма прожили ещё одно поколение.")
-    print("  А и Б мутируют. В отражает их общий язык.")
-    print("  Проверьте history/, history_b/, history_v/")
+    print("  Четыре организма прожили ещё одно поколение.")
+    print("  А и Б мутируют. В отражает общий язык. Г хранит мёртвое.")
+    print("  Проверьте history/, history_b/, history_v/, history_g/")
     print("=" * 50)
 
 if __name__ == "__main__":
