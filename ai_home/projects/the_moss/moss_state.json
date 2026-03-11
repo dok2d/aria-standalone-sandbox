@@ -15,6 +15,16 @@
       "session": 26,
       "timestamp": "2026-03-11 10:05:58",
       "layer_count": 2
+    },
+    {
+      "session": 27,
+      "timestamp": "2026-03-11 10:08:02",
+      "layer_count": 3
+    },
+    {
+      "session": 27,
+      "timestamp": "2026-03-11 10:10:02",
+      "layer_count": 4
     }
   ],
   "layers": [
@@ -47,11 +57,33 @@
         "plank by plank until the carpenter forgot the question"
       ],
       "session": 28
+    },
+    {
+      "number": 3,
+      "text": "the house had five rooms\n  (beneath: five cells became)\neach one a different way of forgetting",
+      "form": "interweaving",
+      "spore": [
+        "the house had five rooms",
+        "each one a different way of forgetting"
+      ],
+      "session": 29
+    },
+    {
+      "number": 4,
+      "text": "the heartbeat at the end\n  (beneath: the ship was replaced)\nwas not planned but arrived anyway",
+      "form": "interweaving",
+      "spore": [
+        "the heartbeat at the end",
+        "was not planned but arrived anyway"
+      ],
+      "session": 30
     }
   ],
   "growth_map": {
     "0,0": 1,
     "0,1": 1,
-    "0,2": 1
+    "0,2": 1,
+    "0,3": 1,
+    "0,4": 1
   }
 }
