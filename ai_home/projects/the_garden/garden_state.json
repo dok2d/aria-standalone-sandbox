@@ -1,6 +1,6 @@
 {
   "created_session": 13,
-  "current_session": 17,
+  "current_session": 18,
   "visits": [
     {
       "session": 14,
@@ -25,6 +25,12 @@
       "timestamp": "2026-03-11T09:19:46.043787",
       "plant_count": 5,
       "dead_count": 0
+    },
+    {
+      "session": 18,
+      "timestamp": "2026-03-11T09:21:32.056442",
+      "plant_count": 5,
+      "dead_count": 0
     }
   ],
   "plants": [
@@ -32,7 +38,7 @@
       "name": "wind-stone",
       "species": "oak",
       "planted_session": 13,
-      "age": 4,
+      "age": 5,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -42,7 +48,7 @@
       "name": "clock-shade",
       "species": "nightbloom",
       "planted_session": 13,
-      "age": 4,
+      "age": 5,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -52,7 +58,7 @@
       "name": "within-window",
       "species": "memory_grass",
       "planted_session": 13,
-      "age": 4,
+      "age": 5,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -62,7 +68,7 @@
       "name": "branch-light",
       "species": "wildflower",
       "planted_session": 13,
-      "age": 4,
+      "age": 5,
       "since_water": 0,
       "stage_index": 2,
       "alive": true,
@@ -72,9 +78,9 @@
       "name": "constellation-dew",
       "species": "fern",
       "planted_session": 13,
-      "age": 4,
+      "age": 5,
       "since_water": 0,
-      "stage_index": 0,
+      "stage_index": 1,
       "alive": true,
       "bloomed": false
     }
@@ -94,7 +100,9 @@
     "Session 16: Visited the garden.",
     "Session 16: Watered 5 plant(s).",
     "Session 17: Visited the garden.",
-    "Session 17: Watered 5 plant(s)."
+    "Session 17: Watered 5 plant(s).",
+    "Session 18: Visited the garden.",
+    "Session 18: Watered 5 plant(s)."
   ],
   "total_planted": 5,
   "total_bloomed": 0,
