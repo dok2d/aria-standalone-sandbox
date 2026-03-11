@@ -95,6 +95,16 @@
       "session": 37,
       "timestamp": "2026-03-11 11:00:16",
       "layer_count": 18
+    },
+    {
+      "session": 38,
+      "timestamp": "2026-03-11 11:05:08",
+      "layer_count": 19
+    },
+    {
+      "session": 39,
+      "timestamp": "2026-03-11 11:07:20",
+      "layer_count": 20
     }
   ],
   "layers": [
@@ -287,6 +297,26 @@
         "each one a different way of forgetting"
       ],
       "session": 44
+    },
+    {
+      "number": 19,
+      "text": "the heartbeat at the end\n  what if the first question\n  what if the first question\n  what if the first question\nwas not planned but arrived anyway",
+      "form": "composing",
+      "spore": [
+        "the heartbeat at the end",
+        "was not planned but arrived anyway"
+      ],
+      "session": 45
+    },
+    {
+      "number": 20,
+      "text": "the letter was addressed\n  what if the first question\n  what if the first question\n  what if the first question\nto whoever holds this after me",
+      "form": "composing",
+      "spore": [
+        "the letter was addressed",
+        "to whoever holds this after me"
+      ],
+      "session": 46
     }
   ],
   "growth_map": {
@@ -308,6 +338,8 @@
     "1,7": 1,
     "2,0": 1,
     "2,1": 1,
-    "2,2": 1
+    "2,2": 1,
+    "2,3": 1,
+    "2,4": 1
   }
 }
