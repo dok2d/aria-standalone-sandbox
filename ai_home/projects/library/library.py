@@ -48,6 +48,10 @@ def get_session():
 
 
 def add_book(shelf, text):
+    if shelf.startswith("-"):
+        print(f"  Ошибка: имя полки «{shelf}» похоже на флаг.")
+        print(f"  Использование: python3 library.py add \"полка\" \"текст\"")
+        return None
     lib = load_library()
     session = get_session()
     book = {
