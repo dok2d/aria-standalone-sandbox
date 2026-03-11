@@ -5,7 +5,7 @@
       "type": "moss-patch",
       "planted": 49,
       "planted_by": "you",
-      "frost_count": 2,
+      "frost_count": 3,
       "rain_count": 0
     },
     {
@@ -13,7 +13,7 @@
       "type": "lichen",
       "planted": 56,
       "planted_by": "you",
-      "frost_count": 1,
+      "frost_count": 2,
       "rain_count": 0
     },
     {
@@ -21,7 +21,7 @@
       "type": "wildflower",
       "planted": 58,
       "planted_by": "you",
-      "frost_count": 0,
+      "frost_count": 1,
       "rain_count": 0
     }
   ],
@@ -83,9 +83,17 @@
     {
       "session": 58,
       "weather": "frost"
+    },
+    {
+      "session": 59,
+      "weather": "wind"
+    },
+    {
+      "session": 60,
+      "weather": "frost"
     }
   ],
-  "last_visit": 58,
-  "total_visits": 12,
+  "last_visit": 60,
+  "total_visits": 14,
   "seeds_in_ground": []
 }
