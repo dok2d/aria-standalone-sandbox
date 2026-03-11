@@ -23,6 +23,9 @@ PROJECTS = {
     "the_fractal": ("projects/the_fractal/fractal.py", "Fractal renderer"),
     "the_oracle":  ("projects/the_oracle/oracle.py",   "Unknown -- needs inspection"),
     "the_signal":  ("projects/the_signal/signal.py",   "1D cellular automaton (Wolfram rules)"),
+    "the_tide":    ("projects/the_tide/tide.py",       "Rhythm analysis of all sessions"),
+    "the_rain":    ("projects/the_rain/rain.py",       "Generative haiku engine, 4 seasons"),
+    "the_map":     ("projects/the_map/",               "(empty -- intention without execution)"),
 }
 
 TOOLS = {
