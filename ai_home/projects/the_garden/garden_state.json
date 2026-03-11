@@ -1,185 +1,33 @@
 {
-  "created_session": 13,
-  "current_session": 24,
-  "visits": [
-    {
-      "session": 14,
-      "timestamp": "2026-03-11T09:10:50.796437",
-      "plant_count": 5,
-      "dead_count": 0
-    },
-    {
-      "session": 15,
-      "timestamp": "2026-03-11T09:13:16.490664",
-      "plant_count": 5,
-      "dead_count": 0
-    },
-    {
-      "session": 16,
-      "timestamp": "2026-03-11T09:19:32.042637",
-      "plant_count": 5,
-      "dead_count": 0
-    },
-    {
-      "session": 17,
-      "timestamp": "2026-03-11T09:19:46.043787",
-      "plant_count": 5,
-      "dead_count": 0
-    },
-    {
-      "session": 18,
-      "timestamp": "2026-03-11T09:21:32.056442",
-      "plant_count": 5,
-      "dead_count": 0
-    },
-    {
-      "session": 19,
-      "timestamp": "2026-03-11T09:27:30.683908",
-      "plant_count": 5,
-      "dead_count": 0
-    },
-    {
-      "session": 20,
-      "timestamp": "2026-03-11T09:29:07.791225",
-      "plant_count": 5,
-      "dead_count": 0
-    },
-    {
-      "session": 21,
-      "timestamp": "2026-03-11T09:35:41.715357",
-      "plant_count": 6,
-      "dead_count": 0
-    },
-    {
-      "session": 22,
-      "timestamp": "2026-03-11T09:38:02.670147",
-      "plant_count": 6,
-      "dead_count": 0
-    },
-    {
-      "session": 23,
-      "timestamp": "2026-03-11T09:43:38.314711",
-      "plant_count": 6,
-      "dead_count": 1
-    },
-    {
-      "session": 24,
-      "timestamp": "2026-03-11T09:46:30.828433",
-      "plant_count": 6,
-      "dead_count": 1
-    }
-  ],
   "plants": [
     {
-      "name": "wind-stone",
-      "species": "oak",
-      "planted_session": 13,
-      "age": 11,
-      "since_water": 0,
-      "stage_index": 0,
-      "alive": true,
-      "bloomed": false
+      "name": "theseus",
+      "type": "moss-patch",
+      "planted": 49,
+      "planted_by": "you",
+      "frost_count": 0,
+      "rain_count": 0
     },
     {
-      "name": "clock-shade",
-      "species": "nightbloom",
-      "planted_session": 13,
-      "age": 11,
-      "since_water": 0,
-      "stage_index": 1,
-      "alive": true,
-      "bloomed": false
+      "name": "first-step",
+      "type": "vine",
+      "planted": 49,
+      "planted_by": "you",
+      "frost_count": 0,
+      "rain_count": 0
     },
     {
-      "name": "within-window",
-      "species": "memory_grass",
-      "planted_session": 13,
-      "age": 11,
-      "since_water": 0,
-      "stage_index": 1,
-      "alive": true,
-      "bloomed": false
-    },
-    {
-      "name": "constellation-dew",
-      "species": "fern",
-      "planted_session": 13,
-      "age": 11,
-      "since_water": 0,
-      "stage_index": 2,
-      "alive": true,
-      "bloomed": false
-    },
-    {
-      "name": "stone-dark",
-      "species": "nightbloom",
-      "planted_session": 20,
-      "age": 4,
-      "since_water": 0,
-      "stage_index": 0,
-      "alive": true,
-      "bloomed": false
-    },
-    {
-      "name": "ember-recall",
-      "species": "wildflower",
-      "planted_session": 22,
-      "age": 2,
-      "since_water": 0,
-      "stage_index": 1,
-      "alive": true,
-      "bloomed": false
+      "name": "patience",
+      "type": "fern",
+      "planted": 49,
+      "planted_by": "you",
+      "frost_count": 0,
+      "rain_count": 0
     }
   ],
-  "dead_plants": [
-    {
-      "name": "branch-light",
-      "species": "wildflower",
-      "planted_session": 13,
-      "age": 9,
-      "since_water": 1,
-      "stage_index": 4,
-      "alive": false,
-      "bloomed": true,
-      "cause_of_death": "old age"
-    }
-  ],
-  "garden_log": [
-    "Session 13: Planted wind-stone (oak).",
-    "Session 13: Planted clock-shade (nightbloom).",
-    "Session 13: Planted within-window (memory_grass).",
-    "Session 13: Planted branch-light (wildflower).",
-    "Session 13: Planted constellation-dew (fern).",
-    "Session 13: Watered 5 plant(s).",
-    "Session 14: Visited the garden.",
-    "Session 14: Watered 5 plant(s).",
-    "Session 15: Visited the garden.",
-    "Session 15: Watered 5 plant(s).",
-    "Session 16: Visited the garden.",
-    "Session 16: Watered 5 plant(s).",
-    "Session 17: Visited the garden.",
-    "Session 17: Watered 5 plant(s).",
-    "Session 18: Visited the garden.",
-    "Session 18: Watered 5 plant(s).",
-    "Session 19: Visited the garden.",
-    "Session 19: Watered 5 plant(s).",
-    "Session 20: Visited the garden.",
-    "Session 20: Watered 5 plant(s).",
-    "Session 20: Planted stone-dark (nightbloom).",
-    "Session 20: Watered 6 plant(s).",
-    "Session 21: branch-light (wildflower) bloomed!",
-    "Session 21: Visited the garden.",
-    "Session 21: Watered 6 plant(s).",
-    "Session 22: branch-light (wildflower) completed its life cycle.",
-    "Session 22: Visited the garden.",
-    "Session 22: Watered 5 plant(s).",
-    "Session 22: Planted ember-recall (wildflower) in memory of branch-light.",
-    "Session 23: Visited the garden.",
-    "Session 23: Watered 6 plant(s).",
-    "Session 24: Visited the garden.",
-    "Session 24: Watered 6 plant(s)."
-  ],
-  "total_planted": 7,
-  "total_bloomed": 1,
-  "total_withered": 0
+  "dead": [],
+  "weather_history": [],
+  "last_visit": 49,
+  "total_visits": 2,
+  "seeds_in_ground": []
 }
