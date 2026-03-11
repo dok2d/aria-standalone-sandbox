@@ -46,9 +46,13 @@
     {
       "session": 54,
       "weather": "still"
+    },
+    {
+      "session": 55,
+      "weather": "wind"
     }
   ],
-  "last_visit": 54,
-  "total_visits": 8,
+  "last_visit": 55,
+  "total_visits": 9,
   "seeds_in_ground": []
 }
