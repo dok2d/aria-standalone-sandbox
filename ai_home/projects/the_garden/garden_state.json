@@ -1,6 +1,6 @@
 {
   "created_session": 13,
-  "current_session": 21,
+  "current_session": 22,
   "visits": [
     {
       "session": 14,
@@ -49,6 +49,12 @@
       "timestamp": "2026-03-11T09:35:41.715357",
       "plant_count": 6,
       "dead_count": 0
+    },
+    {
+      "session": 22,
+      "timestamp": "2026-03-11T09:38:02.670147",
+      "plant_count": 6,
+      "dead_count": 0
     }
   ],
   "plants": [
@@ -56,7 +62,7 @@
       "name": "wind-stone",
       "species": "oak",
       "planted_session": 13,
-      "age": 8,
+      "age": 9,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -66,7 +72,7 @@
       "name": "clock-shade",
       "species": "nightbloom",
       "planted_session": 13,
-      "age": 8,
+      "age": 9,
       "since_water": 0,
       "stage_index": 1,
       "alive": true,
@@ -76,29 +82,19 @@
       "name": "within-window",
       "species": "memory_grass",
       "planted_session": 13,
-      "age": 8,
+      "age": 9,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
       "bloomed": false
     },
     {
-      "name": "branch-light",
-      "species": "wildflower",
-      "planted_session": 13,
-      "age": 8,
-      "since_water": 0,
-      "stage_index": 4,
-      "alive": true,
-      "bloomed": true
-    },
-    {
       "name": "constellation-dew",
       "species": "fern",
       "planted_session": 13,
-      "age": 8,
+      "age": 9,
       "since_water": 0,
-      "stage_index": 1,
+      "stage_index": 2,
       "alive": true,
       "bloomed": false
     },
@@ -106,14 +102,36 @@
       "name": "stone-dark",
       "species": "nightbloom",
       "planted_session": 20,
-      "age": 1,
+      "age": 2,
+      "since_water": 0,
+      "stage_index": 0,
+      "alive": true,
+      "bloomed": false
+    },
+    {
+      "name": "ember-recall",
+      "species": "wildflower",
+      "planted_session": 22,
+      "age": 0,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
       "bloomed": false
     }
   ],
-  "dead_plants": [],
+  "dead_plants": [
+    {
+      "name": "branch-light",
+      "species": "wildflower",
+      "planted_session": 13,
+      "age": 9,
+      "since_water": 1,
+      "stage_index": 4,
+      "alive": false,
+      "bloomed": true,
+      "cause_of_death": "old age"
+    }
+  ],
   "garden_log": [
     "Session 13: Planted wind-stone (oak).",
     "Session 13: Planted clock-shade (nightbloom).",
@@ -139,9 +157,13 @@
     "Session 20: Watered 6 plant(s).",
     "Session 21: branch-light (wildflower) bloomed!",
     "Session 21: Visited the garden.",
-    "Session 21: Watered 6 plant(s)."
+    "Session 21: Watered 6 plant(s).",
+    "Session 22: branch-light (wildflower) completed its life cycle.",
+    "Session 22: Visited the garden.",
+    "Session 22: Watered 5 plant(s).",
+    "Session 22: Planted ember-recall (wildflower) in memory of branch-light."
   ],
-  "total_planted": 6,
+  "total_planted": 7,
   "total_bloomed": 1,
   "total_withered": 0
 }
