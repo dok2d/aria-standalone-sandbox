@@ -2,14 +2,15 @@
   "width": 7,
   "height": 7,
   "player": {
-    "x": 5,
+    "x": 3,
     "y": 3,
     "inventory": [
       "свёрнутый пергамент",
       "свеча, горящая чёрным пламенем",
       "каменная фигурка совы",
       "компас без стрелки",
-      "песочные часы (песок идёт вверх)"
+      "песочные часы (песок идёт вверх)",
+      "перо, которое пишет само"
     ]
   },
   "rooms": {
@@ -385,7 +386,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "2,4": {
@@ -403,7 +405,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "2,5": {
@@ -518,7 +521,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "3,4": {
@@ -542,7 +546,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "3,5": {
@@ -683,7 +688,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "4,5": {
@@ -701,7 +707,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "4,6": {
@@ -814,7 +821,8 @@
       "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "5,5": {
@@ -846,12 +854,11 @@
           "time": "2026-03-11T20:59:25.044681"
         }
       ],
-      "items": [
-        "перо, которое пишет само"
-      ],
+      "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-13"
       ]
     },
     "5,6": {
@@ -2045,6 +2052,136 @@
         3
       ],
       "time": "2026-03-11T20:59:41.714488"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        5,
+        4
+      ],
+      "time": "2026-03-11T21:02:05.423544"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        5,
+        5
+      ],
+      "time": "2026-03-11T21:02:10.362876"
+    },
+    {
+      "session": 13,
+      "action": "take",
+      "item": "перо, которое пишет само",
+      "room": [
+        5,
+        5
+      ],
+      "time": "2026-03-11T21:02:14.521845"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        4,
+        5
+      ],
+      "time": "2026-03-11T21:02:20.808607"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        4,
+        4
+      ],
+      "time": "2026-03-11T21:02:23.439178"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        3,
+        4
+      ],
+      "time": "2026-03-11T21:02:26.526988"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        4,
+        4
+      ],
+      "time": "2026-03-11T21:02:53.091969"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        3,
+        4
+      ],
+      "time": "2026-03-11T21:03:00.516954"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        2,
+        4
+      ],
+      "time": "2026-03-11T21:03:00.546666"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        2,
+        3
+      ],
+      "time": "2026-03-11T21:03:04.351753"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        3,
+        3
+      ],
+      "time": "2026-03-11T21:03:04.383461"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        2,
+        3
+      ],
+      "time": "2026-03-11T21:03:08.472266"
+    },
+    {
+      "session": 13,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        3,
+        3
+      ],
+      "time": "2026-03-11T21:03:08.503696"
     }
   ],
   "seed": 2559640192,
