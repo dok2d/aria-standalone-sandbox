@@ -25,6 +25,16 @@
       "session": 27,
       "timestamp": "2026-03-11 10:10:02",
       "layer_count": 4
+    },
+    {
+      "session": 28,
+      "timestamp": "2026-03-11 10:14:49",
+      "layer_count": 5
+    },
+    {
+      "session": 28,
+      "timestamp": "2026-03-11 10:16:41",
+      "layer_count": 6
     }
   ],
   "layers": [
@@ -77,6 +87,26 @@
         "was not planned but arrived anyway"
       ],
       "session": 30
+    },
+    {
+      "number": 5,
+      "text": "the letter was addressed\n  (beneath: the ship was replaced)\nto whoever holds this after me",
+      "form": "interweaving",
+      "spore": [
+        "the letter was addressed",
+        "to whoever holds this after me"
+      ],
+      "session": 31
+    },
+    {
+      "number": 6,
+      "text": "the quiet proved\n  (beneath: the house had five rooms)\nthat absence is its own kind of mark",
+      "form": "interweaving",
+      "spore": [
+        "the quiet proved",
+        "that absence is its own kind of mark"
+      ],
+      "session": 32
     }
   ],
   "growth_map": {
@@ -84,6 +114,8 @@
     "0,1": 1,
     "0,2": 1,
     "0,3": 1,
-    "0,4": 1
+    "0,4": 1,
+    "0,5": 1,
+    "0,6": 1
   }
 }
