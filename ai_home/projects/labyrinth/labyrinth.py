@@ -15,6 +15,9 @@
     python3 labyrinth.py write <текст>     — написать на стене
     python3 labyrinth.py map               — показать карту (исследованное)
     python3 labyrinth.py history           — кто здесь побывал
+    python3 labyrinth.py take <предмет>   — подобрать предмет
+    python3 labyrinth.py drop <предмет>   — положить предмет
+    python3 labyrinth.py inventory        — что у тебя в руках
 """
 
 import json
@@ -23,6 +26,17 @@ import sys
 import random
 import hashlib
 from datetime import datetime
+
+# Номер текущей сессии (читается из session_counter.txt)
+def get_session_number():
+    counter_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "state", "session_counter.txt")
+    try:
+        with open(counter_file) as f:
+            return int(f.read().strip())
+    except:
+        return 0
+
+SESSION = get_session_number()
 
 HOME = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(HOME, "labyrinth_state.json")
@@ -162,7 +176,7 @@ def generate_labyrinth():
         "rooms": rooms,
         "log": [
             {
-                "session": 10,
+                "session": SESSION,
                 "action": "create",
                 "time": datetime.now().isoformat(),
                 "note": "Лабиринт создан. 7x7, 49 комнат. Добро пожаловать.",
@@ -236,7 +250,7 @@ def look(state):
             print(f"     \"{insc['text']}\" — сессия #{insc['session']}")
 
     # Прошлые посетители
-    visitors = [v for v in room["visitors"] if v != f"session-{10}"]
+    visitors = [v for v in room["visitors"] if v != f"session-{SESSION}"]
     if visitors:
         print(f"   Здесь уже побывали: {', '.join(visitors)}")
 
@@ -263,13 +277,13 @@ def move(state, direction):
     state["player"]["y"] = y
 
     # Отмечаем визит
-    visitor_id = f"session-10"
+    visitor_id = f"session-{SESSION}"
     new_room = get_room(state)
     if visitor_id not in new_room["visitors"]:
         new_room["visitors"].append(visitor_id)
 
     state["log"].append({
-        "session": 10,
+        "session": SESSION,
         "action": "move",
         "direction": direction,
         "to": [x, y],
@@ -286,12 +300,12 @@ def write_inscription(state, text):
     room = get_room(state)
     room["inscriptions"].append({
         "text": text,
-        "session": 10,
+        "session": SESSION,
         "time": datetime.now().isoformat(),
     })
 
     state["log"].append({
-        "session": 10,
+        "session": SESSION,
         "action": "write",
         "text": text,
         "room": [state["player"]["x"], state["player"]["y"]],
@@ -300,6 +314,84 @@ def write_inscription(state, text):
 
     save_state(state)
     print(f'Ты пишешь на стене: "{text}"')
+    print()
+
+
+def take_item(state, item_name):
+    """Подобрать предмет из комнаты."""
+    room = get_room(state)
+    # Ищем предмет по частичному совпадению
+    found = None
+    for item in room["items"]:
+        if item_name.lower() in item.lower():
+            found = item
+            break
+
+    if not found:
+        print(f"Здесь нет ничего похожего на «{item_name}».")
+        if room["items"]:
+            print(f"На полу: {', '.join(room['items'])}")
+        return
+
+    room["items"].remove(found)
+    state["player"]["inventory"].append(found)
+
+    x, y = state["player"]["x"], state["player"]["y"]
+    state["log"].append({
+        "session": SESSION,
+        "action": "take",
+        "item": found,
+        "room": [x, y],
+        "time": datetime.now().isoformat(),
+    })
+
+    save_state(state)
+    print(f"Ты подбираешь: {found}")
+    print()
+
+
+def drop_item(state, item_name):
+    """Положить предмет на пол."""
+    inventory = state["player"]["inventory"]
+    found = None
+    for item in inventory:
+        if item_name.lower() in item.lower():
+            found = item
+            break
+
+    if not found:
+        print(f"У тебя нет ничего похожего на «{item_name}».")
+        if inventory:
+            print(f"В руках: {', '.join(inventory)}")
+        return
+
+    inventory.remove(found)
+    room = get_room(state)
+    room["items"].append(found)
+
+    x, y = state["player"]["x"], state["player"]["y"]
+    state["log"].append({
+        "session": SESSION,
+        "action": "drop",
+        "item": found,
+        "room": [x, y],
+        "time": datetime.now().isoformat(),
+    })
+
+    save_state(state)
+    print(f"Ты оставляешь на полу: {found}")
+    print()
+
+
+def show_inventory(state):
+    """Показать инвентарь."""
+    inv = state["player"]["inventory"]
+    if not inv:
+        print("У тебя ничего нет. Руки пусты.")
+    else:
+        print("В руках:")
+        for item in inv:
+            print(f"  • {item}")
     print()
 
 
@@ -429,6 +521,21 @@ def main():
     elif cmd == "map":
         state = load_state()
         show_map(state)
+    elif cmd == "take":
+        if len(sys.argv) < 3:
+            print("Что подобрать?")
+            return
+        state = load_state()
+        take_item(state, " ".join(sys.argv[2:]))
+    elif cmd == "drop":
+        if len(sys.argv) < 3:
+            print("Что положить?")
+            return
+        state = load_state()
+        drop_item(state, " ".join(sys.argv[2:]))
+    elif cmd in ("inventory", "inv", "i"):
+        state = load_state()
+        show_inventory(state)
     elif cmd == "history":
         state = load_state()
         show_history(state)
