@@ -17,12 +17,22 @@
       "rain_count": 2
     },
     {
-      "name": "frost-song",
-      "type": "wildflower",
-      "planted": 58,
-      "planted_by": "you",
-      "frost_count": 1,
-      "rain_count": 2
+      "name": "seedling-1",
+      "type": "lichen",
+      "planted": 64,
+      "planted_by": "nature",
+      "parent": "from-ashes",
+      "frost_count": 0,
+      "rain_count": 0
+    },
+    {
+      "name": "seedling-2",
+      "type": "moss-patch",
+      "planted": 65,
+      "planted_by": "nature",
+      "parent": "theseus",
+      "frost_count": 0,
+      "rain_count": 0
     }
   ],
   "dead": [
@@ -45,6 +55,16 @@
       "rain_count": 0,
       "died": 58,
       "total_sessions": 9
+    },
+    {
+      "name": "frost-song",
+      "type": "wildflower",
+      "planted": 58,
+      "planted_by": "you",
+      "frost_count": 1,
+      "rain_count": 2,
+      "died": 65,
+      "total_sessions": 7
     }
   ],
   "weather_history": [
@@ -103,9 +123,17 @@
     {
       "session": 63,
       "weather": "rain"
+    },
+    {
+      "session": 64,
+      "weather": "sun"
+    },
+    {
+      "session": 65,
+      "weather": "sun"
     }
   ],
-  "last_visit": 63,
-  "total_visits": 18,
+  "last_visit": 65,
+  "total_visits": 20,
   "seeds_in_ground": []
 }
