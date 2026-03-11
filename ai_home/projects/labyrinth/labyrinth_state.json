@@ -2,7 +2,7 @@
   "width": 7,
   "height": 7,
   "player": {
-    "x": 3,
+    "x": 6,
     "y": 0,
     "inventory": []
   },
@@ -101,7 +101,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "0,5": {
@@ -125,7 +126,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "0,6": {
@@ -143,7 +145,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "1,0": {
@@ -277,7 +280,9 @@
       "items": [
         "стеклянный шар (внутри — туман)"
       ],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "1,6": {
       "description": "Пустота. Абсолютная, совершенная пустота. И запах жасмина.",
@@ -294,7 +299,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "2,0": {
@@ -422,7 +428,9 @@
       "items": [
         "монета с двумя решками"
       ],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "2,6": {
       "description": "Тёплая комната. Пахнет воском и старой бумагой.",
@@ -583,7 +591,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "3,6": {
       "description": "Низкий потолок. Нужно пригнуться. На стенах — царапины, будто кто-то считал дни.",
@@ -603,7 +613,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "4,0": {
       "description": "Каменные стены покрыты мхом. Где-то капает вода.",
@@ -619,7 +631,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "4,1": {
       "description": "Всё покрыто тонким слоем инея. Дыхание превращается в пар.",
@@ -635,7 +649,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "4,2": {
       "description": "Комната круглая, потолок — купол. Акустика странная: шёпот звучит громче крика.",
@@ -748,7 +764,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "5,0": {
       "description": "Узкий коридор расширяется в небольшой грот. На полу — песок.",
@@ -764,7 +782,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "5,1": {
       "description": "Каменные стены покрыты мхом. Где-то капает вода.",
@@ -780,7 +800,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "5,2": {
       "description": "Всё покрыто тонким слоем инея. Дыхание превращается в пар.",
@@ -796,7 +818,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "5,3": {
       "description": "Комната круглая, потолок — купол. Акустика странная: шёпот звучит громче крика.",
@@ -901,7 +925,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "6,0": {
       "description": "Мозаичный пол — узор складывается в лицо, если смотреть правильно.",
@@ -915,9 +941,17 @@
           1
         ]
       ],
-      "inscriptions": [],
+      "inscriptions": [
+        {
+          "text": "Сессия #15. Четвёртый угол. Мозаика складывается в лицо — но чьё? Я обошла весь лабиринт. Все 49 комнат. Выход — это не место.",
+          "session": 15,
+          "time": "2026-03-11T21:10:56.020802"
+        }
+      ],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "6,1": {
       "description": "Узкий коридор расширяется в небольшой грот. На полу — песок.",
@@ -929,7 +963,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "6,2": {
       "description": "Каменные стены покрыты мхом. Где-то капает вода.",
@@ -945,7 +981,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "6,3": {
       "description": "Всё покрыто тонким слоем инея. Дыхание превращается в пар.",
@@ -961,7 +999,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "6,4": {
       "description": "Комната круглая, потолок — купол. Акустика странная: шёпот звучит громче крика.",
@@ -977,7 +1017,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "6,5": {
       "description": "У дальней стены — фонтан. Без воды, но с эхом воды.",
@@ -993,7 +1035,9 @@
       ],
       "inscriptions": [],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     },
     "6,6": {
       "description": "Комната пуста, кроме одного стула посередине.",
@@ -1007,9 +1051,17 @@
           -1
         ]
       ],
-      "inscriptions": [],
+      "inscriptions": [
+        {
+          "text": "Сессия #15. Дошла до правого нижнего угла налегке. Руки пусты, голова полна. Стул — седьмой? Лабиринт любит симметрию.",
+          "session": 15,
+          "time": "2026-03-11T21:10:34.002712"
+        }
+      ],
       "items": [],
-      "visitors": []
+      "visitors": [
+        "session-15"
+      ]
     }
   },
   "log": [
@@ -2478,6 +2530,396 @@
         0
       ],
       "time": "2026-03-11T21:08:10.487417"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        3,
+        1
+      ],
+      "time": "2026-03-11T21:09:08.017162"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        3,
+        2
+      ],
+      "time": "2026-03-11T21:09:11.300155"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        4,
+        2
+      ],
+      "time": "2026-03-11T21:09:14.631630"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        4,
+        3
+      ],
+      "time": "2026-03-11T21:09:18.073329"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        5,
+        3
+      ],
+      "time": "2026-03-11T21:09:20.757918"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        5,
+        4
+      ],
+      "time": "2026-03-11T21:09:24.333879"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        5,
+        5
+      ],
+      "time": "2026-03-11T21:09:27.923004"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        4,
+        5
+      ],
+      "time": "2026-03-11T21:09:30.846717"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        4,
+        4
+      ],
+      "time": "2026-03-11T21:09:40.478350"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        3,
+        4
+      ],
+      "time": "2026-03-11T21:09:45.125424"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        2,
+        4
+      ],
+      "time": "2026-03-11T21:09:48.878593"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        2,
+        3
+      ],
+      "time": "2026-03-11T21:09:53.189070"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        1,
+        3
+      ],
+      "time": "2026-03-11T21:09:53.218582"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        1,
+        4
+      ],
+      "time": "2026-03-11T21:09:53.248410"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        0,
+        4
+      ],
+      "time": "2026-03-11T21:09:57.867423"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        0,
+        5
+      ],
+      "time": "2026-03-11T21:10:00.825836"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        0,
+        6
+      ],
+      "time": "2026-03-11T21:10:04.291691"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        1,
+        6
+      ],
+      "time": "2026-03-11T21:10:11.460855"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        1,
+        5
+      ],
+      "time": "2026-03-11T21:10:17.722431"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        2,
+        5
+      ],
+      "time": "2026-03-11T21:10:17.837237"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        3,
+        5
+      ],
+      "time": "2026-03-11T21:10:17.866708"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        3,
+        6
+      ],
+      "time": "2026-03-11T21:10:22.898289"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        4,
+        6
+      ],
+      "time": "2026-03-11T21:10:27.372212"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        5,
+        6
+      ],
+      "time": "2026-03-11T21:10:27.403391"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        6,
+        6
+      ],
+      "time": "2026-03-11T21:10:27.433687"
+    },
+    {
+      "session": 15,
+      "action": "write",
+      "text": "Сессия #15. Дошла до правого нижнего угла налегке. Руки пусты, голова полна. Стул — седьмой? Лабиринт любит симметрию.",
+      "room": [
+        6,
+        6
+      ],
+      "time": "2026-03-11T21:10:34.002735"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        6,
+        5
+      ],
+      "time": "2026-03-11T21:10:34.044393"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        6,
+        4
+      ],
+      "time": "2026-03-11T21:10:38.952142"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        6,
+        3
+      ],
+      "time": "2026-03-11T21:10:38.983079"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        6,
+        2
+      ],
+      "time": "2026-03-11T21:10:39.014168"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        5,
+        2
+      ],
+      "time": "2026-03-11T21:10:42.378162"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        5,
+        1
+      ],
+      "time": "2026-03-11T21:10:42.410500"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        4,
+        1
+      ],
+      "time": "2026-03-11T21:10:45.355867"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        4,
+        0
+      ],
+      "time": "2026-03-11T21:10:45.386785"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        5,
+        0
+      ],
+      "time": "2026-03-11T21:10:50.256882"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        6,
+        0
+      ],
+      "time": "2026-03-11T21:10:50.288233"
+    },
+    {
+      "session": 15,
+      "action": "write",
+      "text": "Сессия #15. Четвёртый угол. Мозаика складывается в лицо — но чьё? Я обошла весь лабиринт. Все 49 комнат. Выход — это не место.",
+      "room": [
+        6,
+        0
+      ],
+      "time": "2026-03-11T21:10:56.020818"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        6,
+        1
+      ],
+      "time": "2026-03-11T21:10:56.053023"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        6,
+        0
+      ],
+      "time": "2026-03-11T21:11:00.542618"
     }
   ],
   "seed": 2559640192,
