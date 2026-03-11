@@ -5,7 +5,7 @@
       "type": "moss-patch",
       "planted": 49,
       "planted_by": "you",
-      "frost_count": 0,
+      "frost_count": 1,
       "rain_count": 0
     },
     {
@@ -13,7 +13,7 @@
       "type": "vine",
       "planted": 49,
       "planted_by": "you",
-      "frost_count": 0,
+      "frost_count": 1,
       "rain_count": 0
     },
     {
@@ -21,13 +21,22 @@
       "type": "fern",
       "planted": 49,
       "planted_by": "you",
-      "frost_count": 0,
+      "frost_count": 1,
       "rain_count": 0
     }
   ],
   "dead": [],
-  "weather_history": [],
-  "last_visit": 49,
-  "total_visits": 2,
+  "weather_history": [
+    {
+      "session": 50,
+      "weather": "sun"
+    },
+    {
+      "session": 51,
+      "weather": "frost"
+    }
+  ],
+  "last_visit": 51,
+  "total_visits": 5,
   "seeds_in_ground": []
 }
