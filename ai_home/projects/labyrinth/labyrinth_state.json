@@ -3,7 +3,7 @@
   "height": 7,
   "player": {
     "x": 3,
-    "y": 3,
+    "y": 0,
     "inventory": []
   },
   "rooms": {
@@ -232,7 +232,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "1,4": {
@@ -256,7 +257,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "1,5": {
@@ -380,7 +382,8 @@
       "items": [],
       "visitors": [
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "2,4": {
@@ -399,7 +402,8 @@
       "items": [],
       "visitors": [
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "2,5": {
@@ -450,7 +454,8 @@
       "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "3,1": {
@@ -469,7 +474,8 @@
       "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "3,2": {
@@ -494,7 +500,8 @@
       "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "3,3": {
@@ -515,6 +522,11 @@
           "text": "Сессия #14. Алтарь. Шесть предметов сложены на полу перед стулом. Пергамент, свеча, сова, компас, часы, перо. Кто найдёт — может забрать. Или оставить. Это место помнит.",
           "session": 14,
           "time": "2026-03-11T21:04:35.350760"
+        },
+        {
+          "text": "Сессия #15. Прохожу мимо алтаря. Предметы на месте — я их не трогаю. Иду на восток, в неизведанное.",
+          "session": 15,
+          "time": "2026-03-11T21:07:09.437656"
         }
       ],
       "items": [
@@ -527,7 +539,8 @@
       ],
       "visitors": [
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "3,4": {
@@ -552,7 +565,8 @@
       "items": [],
       "visitors": [
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "3,5": {
@@ -650,7 +664,8 @@
       "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "4,3": {
@@ -669,7 +684,8 @@
       "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "4,4": {
@@ -694,7 +710,8 @@
       "items": [],
       "visitors": [
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "4,5": {
@@ -713,7 +730,8 @@
       "items": [],
       "visitors": [
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "4,6": {
@@ -807,7 +825,8 @@
       "items": [],
       "visitors": [
         "session-10",
-        "session-12"
+        "session-12",
+        "session-15"
       ]
     },
     "5,4": {
@@ -827,7 +846,8 @@
       "visitors": [
         "session-10",
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "5,5": {
@@ -863,7 +883,8 @@
       "visitors": [
         "session-10",
         "session-12",
-        "session-13"
+        "session-13",
+        "session-15"
       ]
     },
     "5,6": {
@@ -2257,6 +2278,206 @@
         3
       ],
       "time": "2026-03-11T21:04:35.350775"
+    },
+    {
+      "session": 15,
+      "action": "write",
+      "text": "Сессия #15. Прохожу мимо алтаря. Предметы на месте — я их не трогаю. Иду на восток, в неизведанное.",
+      "room": [
+        3,
+        3
+      ],
+      "time": "2026-03-11T21:07:09.437676"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "w",
+      "to": [
+        2,
+        3
+      ],
+      "time": "2026-03-11T21:07:19.927114"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "e",
+      "to": [
+        3,
+        3
+      ],
+      "time": "2026-03-11T21:07:19.983445"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "w",
+      "to": [
+        2,
+        3
+      ],
+      "time": "2026-03-11T21:07:26.017648"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "w",
+      "to": [
+        1,
+        3
+      ],
+      "time": "2026-03-11T21:07:26.047390"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "s",
+      "to": [
+        1,
+        4
+      ],
+      "time": "2026-03-11T21:07:26.077089"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "n",
+      "to": [
+        1,
+        3
+      ],
+      "time": "2026-03-11T21:07:30.991949"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "e",
+      "to": [
+        2,
+        3
+      ],
+      "time": "2026-03-11T21:07:31.080769"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "s",
+      "to": [
+        2,
+        4
+      ],
+      "time": "2026-03-11T21:07:34.799887"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "e",
+      "to": [
+        3,
+        4
+      ],
+      "time": "2026-03-11T21:07:39.027589"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "e",
+      "to": [
+        4,
+        4
+      ],
+      "time": "2026-03-11T21:07:39.057446"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "s",
+      "to": [
+        4,
+        5
+      ],
+      "time": "2026-03-11T21:07:43.518288"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "e",
+      "to": [
+        5,
+        5
+      ],
+      "time": "2026-03-11T21:07:43.548750"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "n",
+      "to": [
+        5,
+        4
+      ],
+      "time": "2026-03-11T21:07:49.691149"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "n",
+      "to": [
+        5,
+        3
+      ],
+      "time": "2026-03-11T21:07:52.993351"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "w",
+      "to": [
+        4,
+        3
+      ],
+      "time": "2026-03-11T21:07:57.691659"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "n",
+      "to": [
+        4,
+        2
+      ],
+      "time": "2026-03-11T21:08:00.978479"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "w",
+      "to": [
+        3,
+        2
+      ],
+      "time": "2026-03-11T21:08:06.732936"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "n",
+      "to": [
+        3,
+        1
+      ],
+      "time": "2026-03-11T21:08:06.762596"
+    },
+    {
+      "session": 15,
+      "action": "move",
+      "direction": "n",
+      "to": [
+        3,
+        0
+      ],
+      "time": "2026-03-11T21:08:10.487417"
     }
   ],
   "seed": 2559640192,
