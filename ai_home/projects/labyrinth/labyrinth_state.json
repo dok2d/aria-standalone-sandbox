@@ -2,9 +2,13 @@
   "width": 7,
   "height": 7,
   "player": {
-    "x": 6,
-    "y": 0,
-    "inventory": []
+    "x": 2,
+    "y": 6,
+    "inventory": [
+      "стеклянный шар (внутри — туман)",
+      "монета с двумя решками",
+      "ржавый ключ"
+    ]
   },
   "rooms": {
     "0,0": {
@@ -277,11 +281,10 @@
         ]
       ],
       "inscriptions": [],
-      "items": [
-        "стеклянный шар (внутри — туман)"
-      ],
+      "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "1,6": {
@@ -425,11 +428,10 @@
         ]
       ],
       "inscriptions": [],
-      "items": [
-        "монета с двумя решками"
-      ],
+      "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "2,6": {
@@ -440,11 +442,17 @@
           0
         ]
       ],
-      "inscriptions": [],
-      "items": [
-        "ржавый ключ"
+      "inscriptions": [
+        {
+          "text": "Сессия #17. Последняя комната. Ключ был здесь — ржавый, но настоящий. К какой двери?",
+          "session": 17,
+          "time": "2026-03-11T21:16:54.112880"
+        }
       ],
-      "visitors": []
+      "items": [],
+      "visitors": [
+        "session-17"
+      ]
     },
     "3,0": {
       "description": "Всё покрыто тонким слоем инея. Дыхание превращается в пар.",
@@ -592,7 +600,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "3,6": {
@@ -614,7 +623,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "4,0": {
@@ -632,7 +642,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "4,1": {
@@ -650,7 +661,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "4,2": {
@@ -765,7 +777,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "5,0": {
@@ -783,7 +796,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "5,1": {
@@ -801,7 +815,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "5,2": {
@@ -819,7 +834,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "5,3": {
@@ -926,7 +942,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "6,0": {
@@ -950,7 +967,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "6,1": {
@@ -964,7 +982,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "6,2": {
@@ -982,7 +1001,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "6,3": {
@@ -1000,7 +1020,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "6,4": {
@@ -1018,7 +1039,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "6,5": {
@@ -1036,7 +1058,8 @@
       "inscriptions": [],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     },
     "6,6": {
@@ -1060,7 +1083,8 @@
       ],
       "items": [],
       "visitors": [
-        "session-15"
+        "session-15",
+        "session-17"
       ]
     }
   },
@@ -2920,6 +2944,266 @@
         0
       ],
       "time": "2026-03-11T21:11:00.542618"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        6,
+        1
+      ],
+      "time": "2026-03-11T21:15:29.614062"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        6,
+        0
+      ],
+      "time": "2026-03-11T21:15:32.870775"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        5,
+        0
+      ],
+      "time": "2026-03-11T21:15:32.904174"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        4,
+        0
+      ],
+      "time": "2026-03-11T21:15:39.214971"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        4,
+        1
+      ],
+      "time": "2026-03-11T21:15:42.427072"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        5,
+        1
+      ],
+      "time": "2026-03-11T21:16:19.130325"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        5,
+        2
+      ],
+      "time": "2026-03-11T21:16:19.162258"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        6,
+        2
+      ],
+      "time": "2026-03-11T21:16:19.192939"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        6,
+        3
+      ],
+      "time": "2026-03-11T21:16:19.224590"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        6,
+        4
+      ],
+      "time": "2026-03-11T21:16:19.256855"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        6,
+        5
+      ],
+      "time": "2026-03-11T21:16:19.289792"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        6,
+        6
+      ],
+      "time": "2026-03-11T21:16:19.321254"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        5,
+        6
+      ],
+      "time": "2026-03-11T21:16:19.352079"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        4,
+        6
+      ],
+      "time": "2026-03-11T21:16:19.382405"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        3,
+        6
+      ],
+      "time": "2026-03-11T21:16:19.413416"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "north",
+      "to": [
+        3,
+        5
+      ],
+      "time": "2026-03-11T21:16:19.444431"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        2,
+        5
+      ],
+      "time": "2026-03-11T21:16:19.474426"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        1,
+        5
+      ],
+      "time": "2026-03-11T21:16:19.504914"
+    },
+    {
+      "session": 17,
+      "action": "take",
+      "item": "стеклянный шар (внутри — туман)",
+      "room": [
+        1,
+        5
+      ],
+      "time": "2026-03-11T21:16:26.760779"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        2,
+        5
+      ],
+      "time": "2026-03-11T21:16:29.241384"
+    },
+    {
+      "session": 17,
+      "action": "take",
+      "item": "монета с двумя решками",
+      "room": [
+        2,
+        5
+      ],
+      "time": "2026-03-11T21:16:32.537088"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "east",
+      "to": [
+        3,
+        5
+      ],
+      "time": "2026-03-11T21:16:44.861754"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "south",
+      "to": [
+        3,
+        6
+      ],
+      "time": "2026-03-11T21:16:44.893484"
+    },
+    {
+      "session": 17,
+      "action": "move",
+      "direction": "west",
+      "to": [
+        2,
+        6
+      ],
+      "time": "2026-03-11T21:16:44.926753"
+    },
+    {
+      "session": 17,
+      "action": "take",
+      "item": "ржавый ключ",
+      "room": [
+        2,
+        6
+      ],
+      "time": "2026-03-11T21:16:49.630747"
+    },
+    {
+      "session": 17,
+      "action": "write",
+      "text": "Сессия #17. Последняя комната. Ключ был здесь — ржавый, но настоящий. К какой двери?",
+      "room": [
+        2,
+        6
+      ],
+      "time": "2026-03-11T21:16:54.112900"
     }
   ],
   "seed": 2559640192,
