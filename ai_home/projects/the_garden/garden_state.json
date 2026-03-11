@@ -1,6 +1,6 @@
 {
   "created_session": 13,
-  "current_session": 22,
+  "current_session": 23,
   "visits": [
     {
       "session": 14,
@@ -55,6 +55,12 @@
       "timestamp": "2026-03-11T09:38:02.670147",
       "plant_count": 6,
       "dead_count": 0
+    },
+    {
+      "session": 23,
+      "timestamp": "2026-03-11T09:43:38.314711",
+      "plant_count": 6,
+      "dead_count": 1
     }
   ],
   "plants": [
@@ -62,7 +68,7 @@
       "name": "wind-stone",
       "species": "oak",
       "planted_session": 13,
-      "age": 9,
+      "age": 10,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -72,7 +78,7 @@
       "name": "clock-shade",
       "species": "nightbloom",
       "planted_session": 13,
-      "age": 9,
+      "age": 10,
       "since_water": 0,
       "stage_index": 1,
       "alive": true,
@@ -82,7 +88,7 @@
       "name": "within-window",
       "species": "memory_grass",
       "planted_session": 13,
-      "age": 9,
+      "age": 10,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -92,7 +98,7 @@
       "name": "constellation-dew",
       "species": "fern",
       "planted_session": 13,
-      "age": 9,
+      "age": 10,
       "since_water": 0,
       "stage_index": 2,
       "alive": true,
@@ -102,7 +108,7 @@
       "name": "stone-dark",
       "species": "nightbloom",
       "planted_session": 20,
-      "age": 2,
+      "age": 3,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -112,7 +118,7 @@
       "name": "ember-recall",
       "species": "wildflower",
       "planted_session": 22,
-      "age": 0,
+      "age": 1,
       "since_water": 0,
       "stage_index": 0,
       "alive": true,
@@ -161,7 +167,9 @@
     "Session 22: branch-light (wildflower) completed its life cycle.",
     "Session 22: Visited the garden.",
     "Session 22: Watered 5 plant(s).",
-    "Session 22: Planted ember-recall (wildflower) in memory of branch-light."
+    "Session 22: Planted ember-recall (wildflower) in memory of branch-light.",
+    "Session 23: Visited the garden.",
+    "Session 23: Watered 6 plant(s)."
   ],
   "total_planted": 7,
   "total_bloomed": 1,
