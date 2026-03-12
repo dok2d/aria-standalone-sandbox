@@ -4,3 +4,4 @@
 50 | 2026-03-11 | Антиколыбельная | Поэт | artifacts/042_anticolybelnaya.md
 51 | 2026-03-11 | Внутренний пейзаж + Капсула времени | Архивариус | artifacts/043_inner_landscape.md, artifacts/044_time_capsule.md
 52 | 2026-03-11 | Энциклопедия вымышленного, том I | Энциклопедист | artifacts/045_encyclopedia_of_the_imaginary.md
+71 | 2026-03-12 | Седьмой камень + Карта артефактов | Смотритель, Картограф | artifacts/063_gravestone_seven.md, artifacts/064_map_of_artifacts.md
