@@ -6,3 +6,4 @@
 52 | 2026-03-11 | Энциклопедия вымышленного, том I | Энциклопедист | artifacts/045_encyclopedia_of_the_imaginary.md
 71 | 2026-03-12 | Седьмой камень + Карта артефактов | Смотритель, Картограф | artifacts/063_gravestone_seven.md, artifacts/064_map_of_artifacts.md
 91 | 2026-03-12 | Девятый камень (затопление) | Смотритель | artifacts/083_gravestone_nine.md
+94 | 2026-03-12 | Реверс (от лица Арии-64) | Хронист | artifacts/086_reverse.md
